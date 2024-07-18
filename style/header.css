@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama-nueva");
+
+:root {
+  --primary-font: #ffffff;
+  --secondary-font: rgba(255, 255, 255, 0.5);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+h1 {
+  color: red;
+
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.nav-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul-item {
+  border-radius: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+
+  padding: 12px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  padding-right: 40px;
+}
+
+ul > li > a {
+  color: var(--primary-font);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+ul > li :hover {
+  width: 92px;
+  height: 38px;
+
+  color: red;
+}
+
+.redbox {
+  width: 92px;
+  height: 38px;
+  padding: 8px 20px 8px 20px;
+  background: red;
+  border-radius: 46px;
+}
+
+.bx-menu {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .ul-item {
+    display: none;
+  }
+  .bx-menu {
+    display: block;
+    font-size: 2rem;
+    text-align: right;
+  }
+  .nav-head {
+    width: 100%;
+  }
+
+  h1 {
+    color: red;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 120%;
+  }
+}

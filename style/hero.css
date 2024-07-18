@@ -1,0 +1,274 @@
+.hero {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_des {
+  width: 45%;
+  text-align: left;
+}
+
+.hero_img {
+  width: 45%;
+  text-align: center;
+  position: relative;
+}
+
+.blurcard1,
+.blurcard2 {
+  width: 193px;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+}
+.circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blurcard1 {
+  text-align: left;
+  padding: 20px 10px 20px 20px;
+  right: 70px;
+  top: 150px;
+}
+.blurcard1,
+h3 {
+  font-size: 2.6rem;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: var(--primary-font);
+}
+
+.blurcard1,
+.blurcard2 > p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: var(--secondary-font);
+}
+
+.innercard > h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: var(--primary-font);
+}
+
+.innercard > p {
+  font-size: 0.6rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: var(--secondary-font);
+}
+
+.blurcard2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  bottom: 80px;
+  left: 60px;
+}
+
+.hero_title {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 120%;
+  color: var(--primary-font);
+}
+
+.shape {
+  font-family: "Miama Nueva", sans-serif;
+  font-weight: 400;
+  line-height: 120%;
+  color: var(--primary-font);
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--secondary-font);
+  margin: 28px 0px;
+}
+
+.primary {
+  background-color: red;
+  border-radius: 42px;
+  color: var(--primary-font);
+  width: 224px;
+  height: 54px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 22px;
+  margin-right: 14px;
+}
+
+.btn {
+  background-color: black;
+  border-radius: 42px;
+  color: var(--primary-font);
+  width: 224px;
+  height: 54px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 22px;
+  border: 1.5px solid white;
+}
+
+#icon {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .hero_title {
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 120%;
+    color: var(--primary-font);
+  }
+
+  .hero_des {
+    width: 100%;
+    text-align: left;
+  }
+
+  .hero {
+    margin: 100px 0px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero_img {
+    width: 100%;
+  }
+
+  .button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .primary {
+    background-color: red;
+    border-radius: 42px;
+    color: var(--primary-font);
+    width: 50%;
+    height: 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 22px;
+    margin-right: 14px;
+  }
+
+  .btn {
+    background-color: black;
+    border-radius: 42px;
+    color: var(--primary-font);
+    width: 50%;
+    height: 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 22px;
+    border: 1.5px solid white;
+  }
+
+  .blurcard1,
+  .blurcard2 {
+    width: 110px;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    padding: 2px 10px;
+  }
+  .blurcard1 h3 {
+    font-size: 1.6rem;
+    font-weight: 900;
+
+    letter-spacing: 1px;
+    color: var(--primary-font);
+  }
+
+  .blurcard1 p {
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: var(--secondary-font);
+  }
+
+  .innercard > h3 {
+    font-size: 1.6rem;
+    font-weight: 900;
+
+    letter-spacing: 1px;
+    color: var(--primary-font);
+  }
+
+  .innercard > p {
+    font-size: 0.5rem;
+    font-weight: 400;
+
+    letter-spacing: 1px;
+    color: var(--secondary-font);
+  }
+
+  .innercard {
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: red;
+  }
+
+  .hero_img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .blurcard1 {
+    text-align: left;
+
+    right: -24px;
+    top: 90px;
+  }
+
+  .blurcard2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    bottom: 150px;
+    left: 40px;
+  }
+  #icon {
+    display: block;
+    width: 22px;
+    height: 22px;
+    padding: 10px 0px 0px 0px;
+  }
+}
