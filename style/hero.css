@@ -13,7 +13,15 @@
 .hero_img {
   width: 45%;
   text-align: center;
+}
+
+.logo {
   position: relative;
+  background: linear-gradient(
+    -160deg,
+    rgba(15, 14, 14, 0.5),
+    rgba(29, 26, 26, 0.1)
+  );
 }
 
 .blurcard1,
@@ -39,8 +47,8 @@
 .blurcard1 {
   text-align: left;
   padding: 20px 10px 20px 20px;
-  right: 70px;
-  top: 150px;
+  right: 10%;
+  top: 20%;
 }
 .blurcard1,
 h3 {
@@ -253,7 +261,7 @@ h3 {
   .blurcard1 {
     text-align: left;
 
-    right: -24px;
+    right: 0px;
     top: 90px;
   }
 
