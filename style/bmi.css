@@ -20,9 +20,22 @@
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
-
 table {
-  border: 1px solid white;
+  width: 350px;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid rgb(66, 65, 65);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
 }
 
 th {
@@ -36,7 +49,7 @@ td {
 .upperinput {
   border-radius: 14px;
   padding: 0px 20px;
-  width: 30%;
+  width: 250px;
   background: var(--secondary-font);
   color: var(--primary-font);
   height: 50px;
@@ -47,7 +60,7 @@ td {
 .dropdown_gender {
   border-radius: 14px;
   padding: 0px 20px;
-  width: 36%;
+  width: 288px;
   background: var(--secondary-font);
   color: var(--primary-font);
   height: 50px;
@@ -58,7 +71,7 @@ td {
 .dropdown_factor {
   border-radius: 14px;
   padding: 0px 20px;
-  width: 74%;
+  width: 91%;
   background: var(--secondary-font);
   color: var(--primary-font);
   height: 50px;
