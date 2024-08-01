@@ -224,53 +224,35 @@
           <div class="bmiright">
             <h3 class="bmi_title">Calculate your BMI</h3>
             <p class="habbits_desc" style="text-align: left">
-              Give your height, weight and age accurately in below form and
-              <br />
-              know your BMI.
+              Give your height, weight and age accurately in below form and know
+              your BMI.
             </p>
 
-            <form action="#">
-              <input
-                class="upperinput"
-                type="text"
-                placeholder="Height/cm"
-                required
-              />
-              <input
-                class="upperinput"
-                type="text"
-                placeholder="Weight/kg"
-                required
-              />
-              <input
-                class="upperinput"
-                type="text"
-                placeholder="Age"
-                required
-              />
-              <select
-                class="dropdown_gender"
-                aria-placeholder="Sex"
-                name=""
-                id=""
-              >
-                <option value="Sex">Sex</option>
-                <option value="Sex">Male</option>
-                <option value="">Female</option>
-              </select>
+            <form
+              action="
+            
+            "
+            >
+              <div class="upperinput">
+                <input id="input" type="text" placeholder="Height/cm" />
+                <input id="input" type="text" placeholder="Weight/kg" />
+                <input id="input" type="text" placeholder="Age" />
+                <select id="input" class="options" name="Sex" id="">
+                  <option value="Male" style="color: black">Male</option>
+                  <option value="FeMale" style="color: black">FeMale</option>
+                </select>
+              </div>
+              <div class="lowerinput">
+                <select name="" id="lower">
+                  <option value="gymnast" style="color: rgb(58, 58, 58)">
+                    Select your factor
+                  </option>
+                  <option value="gymnast" style="color: black">Gymnast</option>
+                  <option value="athlete" style="color: black">Athlete</option>
+                </select>
+              </div>
 
-              <select
-                class="dropdown_factor"
-                aria-placeholder="Sex"
-                name=""
-                id=""
-              >
-                <option value="">Select an activity factor</option>
-                <option value="Sex">Athlete</option>
-                <option value="">Gymnast</option>
-              </select>
-
-              <input type="submit" class="formbutton" placeholder="Calculate" />
+              <button id="calculate">Calculate</button>
             </form>
           </div>
         </div>

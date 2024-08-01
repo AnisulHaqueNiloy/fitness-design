@@ -21,7 +21,7 @@
   margin-bottom: 20px;
 }
 table {
-  width: 350px;
+  width: 340px;
 }
 
 table,
@@ -45,67 +45,59 @@ th {
 td {
   color: var(--secondary-font);
 }
-
 .upperinput {
-  border-radius: 14px;
-  padding: 0px 20px;
-  width: 250px;
-  background: var(--secondary-font);
-  color: var(--primary-font);
-  height: 50px;
-  margin: 10px 10px;
-  outline: none;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
-.dropdown_gender {
-  border-radius: 14px;
-  padding: 0px 20px;
-  width: 288px;
-  background: var(--secondary-font);
-  color: var(--primary-font);
-  height: 50px;
-  margin: 10px 10px;
+#input {
+  padding: 20px;
+  border-radius: 18px;
+  border: none;
   outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  color: white;
 }
 
-.dropdown_factor {
-  border-radius: 14px;
-  padding: 0px 20px;
-  width: 91%;
-  background: var(--secondary-font);
-  color: var(--primary-font);
-  height: 50px;
-  margin: 10px 10px;
-  outline: none;
-}
-
-.dropdown_gender > option {
-  background-color: var(--secondary-font);
-  color: black;
-}
-.dropdown_factor > option {
-  background-color: var(--secondary-font);
+.options {
   color: black;
 }
 
-.formbutton {
-  border-radius: 14px;
-  padding: 0px 20px;
-  width: 30%;
-  background: red;
-  border-radius: 20px;
-  text-align: center;
+.lowerinput {
+  margin-top: 20px;
+}
 
-  color: var(--primary-font);
-  height: 50px;
-  margin: 10px 10px;
+#lower {
+  width: 100%;
+  padding: 20px;
+  border-radius: 18px;
+  border: none;
   outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  color: white;
+}
+
+#calculate {
+  border-radius: 42px;
+  margin-top: 20px;
+  background: rgb(230, 83, 60);
+  width: 224px;
+  height: 54px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 576px) {
   .bmicontainer {
     width: 80%;
-    margin: 30px auto;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
 
@@ -114,10 +106,27 @@ td {
     width: 100%;
   }
 
-  .upperinput,
-  .dropdown_gender {
-    border-radius: 14px;
-    padding: 0px 20px;
-    width: 30%;
+  table {
+    width: 300px;
+
+    margin: 10px auto;
+  }
+  #input,
+  .options {
+    width: 80%; /* Ensures the element takes the full width of its container */
+    padding: 20px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    color: white;
+  }
+
+  .upperinput {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
