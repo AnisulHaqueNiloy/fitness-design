@@ -1,0 +1,54 @@
+.team_container {
+  margin: 80px 0px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  text-align: center;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.team_grid {
+  margin: 40px 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.team_card {
+  width: 98%;
+  height: 300px;
+  border-radius: 18px;
+  position: relative;
+}
+.team_card > img {
+  width: 98%;
+  height: 300px;
+  border-radius: 18px;
+}
+
+.trainer_name {
+  font-size: 0.9rem;
+  color: var(--primary-font);
+  font-weight: 800;
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+}
+
+.trainer_prof {
+  font-size: 0.7rem;
+  color: var(--secondary-font);
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  bottom: 18px;
+}
+
+@media screen and (max-width: 576px) {
+  .team_grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

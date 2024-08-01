@@ -1,0 +1,172 @@
+.training {
+  margin: 100px auto;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: 0.5fr 1.2fr 0.5fr;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 0.9fr 0.5fr 0.7fr;
+}
+
+.training_card1 {
+  height: 300px;
+  background-color: rgba(6, 255, 210, 0.5);
+  background-image: url(/images/exercise1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: hard-light;
+  position: relative;
+}
+
+.training_card2 {
+  height: 300px;
+  background: rgba(255, 0, 0, 0.3);
+  background-image: url(/images/exercise2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: hard-light;
+  position: relative;
+}
+
+.training_card3 {
+  height: 300px;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: url(/images/exercise3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: hard-light;
+  position: relative;
+}
+
+.training_card11 {
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(/images/exercise4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: hard-light;
+  position: relative;
+}
+
+.training_card12 {
+  height: 300px;
+  background: rgba(66, 255, 0, 0.3);
+  background-image: url(/images/exercise5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: hard-light;
+  position: relative;
+}
+
+.training_card13 {
+  height: 300px;
+  background: rgba(0, 71, 255, 0.3);
+  background-image: url(/images/exercise6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: hard-light;
+  position: relative;
+}
+
+.training_desc1 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+.training_desc2 {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+.training_desc3 {
+  position: absolute;
+
+  bottom: 20px;
+  left: 40px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+.training_desc11 {
+  position: absolute;
+
+  top: 20px;
+  right: 40px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.training_desc12 {
+  position: absolute;
+
+  bottom: 20px;
+  left: 40px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+.training_desc13 {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.exe {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .row2 {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+  }
+
+  .training_card1,
+  .training_card2,
+  .training_card11,
+  .training_card12 {
+    height: 150px;
+  }
+
+  .training_card13,
+  .training_card3 {
+    display: none;
+  }
+  .training_desc1 {
+    font-size: 0.8rem;
+  }
+  .training_desc2 {
+    font-size: 0.8rem;
+  }
+  .training_desc11 {
+    font-size: 0.8rem;
+  }
+  .training_desc12 {
+    font-size: 0.8rem;
+  }
+}

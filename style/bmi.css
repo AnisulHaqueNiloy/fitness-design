@@ -1,0 +1,110 @@
+.bmi_section {
+  background: rgb(34, 34, 34);
+}
+
+.bmicontainer {
+  width: 80%;
+  margin: 50px auto;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between;
+}
+
+.bmileft,
+.bmiright {
+  margin: 40px 0px;
+  width: 50%;
+}
+
+.bmi_title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+table {
+  border: 1px solid white;
+}
+
+th {
+  color: var(--primary-font);
+}
+
+td {
+  color: var(--secondary-font);
+}
+
+.upperinput {
+  border-radius: 14px;
+  padding: 0px 20px;
+  width: 30%;
+  background: var(--secondary-font);
+  color: var(--primary-font);
+  height: 50px;
+  margin: 10px 10px;
+  outline: none;
+}
+
+.dropdown_gender {
+  border-radius: 14px;
+  padding: 0px 20px;
+  width: 36%;
+  background: var(--secondary-font);
+  color: var(--primary-font);
+  height: 50px;
+  margin: 10px 10px;
+  outline: none;
+}
+
+.dropdown_factor {
+  border-radius: 14px;
+  padding: 0px 20px;
+  width: 74%;
+  background: var(--secondary-font);
+  color: var(--primary-font);
+  height: 50px;
+  margin: 10px 10px;
+  outline: none;
+}
+
+.dropdown_gender > option {
+  background-color: var(--secondary-font);
+  color: black;
+}
+.dropdown_factor > option {
+  background-color: var(--secondary-font);
+  color: black;
+}
+
+.formbutton {
+  border-radius: 14px;
+  padding: 0px 20px;
+  width: 30%;
+  background: red;
+  border-radius: 20px;
+  text-align: center;
+
+  color: var(--primary-font);
+  height: 50px;
+  margin: 10px 10px;
+  outline: none;
+}
+
+@media screen and (max-width: 576px) {
+  .bmicontainer {
+    width: 80%;
+    margin: 30px auto;
+    flex-direction: column;
+  }
+
+  .bmileft,
+  .bmiright {
+    width: 100%;
+  }
+
+  .upperinput,
+  .dropdown_gender {
+    border-radius: 14px;
+    padding: 0px 20px;
+    width: 30%;
+  }
+}

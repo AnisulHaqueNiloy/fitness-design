@@ -13,6 +13,7 @@
   text-decoration: none;
   list-style: none;
   border: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -72,6 +73,15 @@ ul > li :hover {
   height: 38px;
   padding: 8px 20px 8px 20px;
   background: red;
+  border-radius: 46px;
+}
+
+.redbox:hover {
+  width: 92px;
+  height: 38px;
+  padding: 8px 20px 8px 20px;
+  background: red;
+  color: white;
   border-radius: 46px;
 }
 

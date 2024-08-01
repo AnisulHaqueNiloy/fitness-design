@@ -115,7 +115,7 @@ h3 {
   margin: 28px 0px;
 }
 
-.primary {
+.joinbtn {
   background-color: red;
   border-radius: 42px;
   color: var(--primary-font);
@@ -127,7 +127,7 @@ h3 {
   margin-right: 14px;
 }
 
-.btn {
+.downloadbtn {
   background-color: black;
   border-radius: 42px;
   color: var(--primary-font);
@@ -174,7 +174,7 @@ h3 {
     align-items: center;
   }
 
-  .primary {
+  .joinbtn {
     background-color: red;
     border-radius: 42px;
     color: var(--primary-font);
@@ -183,10 +183,10 @@ h3 {
     font-size: 0.8rem;
     font-weight: 600;
     line-height: 22px;
-    margin-right: 14px;
+    margin-right: 10px;
   }
 
-  .btn {
+  .downloadbtn {
     background-color: black;
     border-radius: 42px;
     color: var(--primary-font);
