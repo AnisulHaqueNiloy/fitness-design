@@ -1,0 +1,53 @@
+.routine_card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 60px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+}
+
+.routine_container > h2 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  padding: 20px;
+}
+
+.routine_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.routinedesc {
+  width: 70%;
+}
+
+.routinedesc > p {
+  color: var(--secondary-font);
+  padding: 20px;
+}
+.routinedesc > h3 {
+  padding: 20px;
+}
+
+.routine_card > img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .routine_card {
+    flex-direction: column;
+  }
+
+  .routine_card > img {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    padding: 10px;
+  }
+}
