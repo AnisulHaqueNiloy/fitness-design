@@ -15,11 +15,8 @@
 .training_card1 {
   height: 300px;
   background-color: rgba(6, 255, 210, 0.5);
-<<<<<<< HEAD
-  background-image: url(../images/exercise1.jpg);
-=======
-  background-image: url(./images/exercise1.jpg);
->>>>>>> 92a731e0946c9dcae70e25eb9f439262d6ccdb00
+
+  background-image: url("../images/exercise1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -30,11 +27,7 @@
 .training_card2 {
   height: 300px;
   background: rgba(255, 0, 0, 0.3);
-<<<<<<< HEAD
-  background-image: url(../images/exercise2.png);
-=======
-  background-image: url(./images/exercise2.png);
->>>>>>> 92a731e0946c9dcae70e25eb9f439262d6ccdb00
+  background-image: url("../images/exercise2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -45,11 +38,8 @@
 .training_card3 {
   height: 300px;
   background: rgba(0, 0, 0, 0.5);
-<<<<<<< HEAD
-  background-image: url(../images/exercise3.png);
-=======
-  background-image: url(./images/exercise3.png);
->>>>>>> 92a731e0946c9dcae70e25eb9f439262d6ccdb00
+  background-image: url("../images/exercise3.png");
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -60,11 +50,8 @@
 .training_card11 {
   height: 300px;
   background-color: rgba(0, 0, 0, 0.5);
-<<<<<<< HEAD
-  background-image: url(../images/exercise4.png);
-=======
-  background-image: url(./images/exercise4.png);
->>>>>>> 92a731e0946c9dcae70e25eb9f439262d6ccdb00
+  background-image: url("../images/exercise4.png");
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -75,11 +62,8 @@
 .training_card12 {
   height: 300px;
   background: rgba(66, 255, 0, 0.3);
-<<<<<<< HEAD
-  background-image: url(../images/exercise5.jpg);
-=======
-  background-image: url(./images/exercise5.jpg);
->>>>>>> 92a731e0946c9dcae70e25eb9f439262d6ccdb00
+  background-image: url("../images/exercise5.jpg");
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -90,11 +74,8 @@
 .training_card13 {
   height: 300px;
   background: rgba(0, 71, 255, 0.3);
-<<<<<<< HEAD
-  background-image: url(../images/exercise6.jpg);
-=======
-  background-image: url(./images/exercise6.jpg);
->>>>>>> 92a731e0946c9dcae70e25eb9f439262d6ccdb00
+  background-image: url("../images/exercise6.jpg");
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
