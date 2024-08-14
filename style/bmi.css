@@ -95,7 +95,7 @@ td {
 @media screen and (max-width: 576px) {
   .bmicontainer {
     width: 80%;
-    margin: 20px auto;
+    margin: auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -103,7 +103,8 @@ td {
 
   .bmileft,
   .bmiright {
-    width: 100%;
+    width: 90%;
+    margin: 0px auto;
   }
 
   table {
